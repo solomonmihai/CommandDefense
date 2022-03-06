@@ -12,7 +12,7 @@ enum VALORI
 {
     INMULTIRE,
     SUMA,
-    REZERVAT1,
+    REZEjVAT1,
     DIFERENTA,
     REZERVAT2,
     IMPARTIRE

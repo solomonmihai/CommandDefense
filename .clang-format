@@ -22,21 +22,21 @@ AlwaysBreakTemplateDeclarations               : true
 BinPackArguments                              : false
 BinPackParameters                             : false
 BreakBeforeBinaryOperators                    : None
-BreakBeforeBraces                             : Allman
+BreakBeforeBraces                             : None
 BreakBeforeTernaryOperators                   : true
 BreakConstructorInitializersBeforeComma       : false
 BreakStringLiterals                           : true
 ColumnLimit                                   : 120
 CommentPragmas                                : '^ IWYU pragma:'
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
-ConstructorInitializerIndentWidth             : 4
+ConstructorInitializerIndentWidth             : 2
 ContinuationIndentWidth                       : 6
 Cpp11BracedListStyle                          : false
 DerivePointerAlignment                        : false
 DisableFormat                                 : false
 ExperimentalAutoDetectBinPacking              : false
 IncludeBlocks                                 : Merge
-IncludeCategories: 
+IncludeCategories:
   - Regex                                     : '^"(llvm|llvm-c|clang|clang-c)/'
     Priority                                  : 2
   - Regex                                     : '^(<|"(gtest|isl|json)/)'
@@ -44,7 +44,7 @@ IncludeCategories:
   - Regex                                     : '.*'
     Priority                                  : 1
 IndentCaseLabels                              : false
-IndentWidth                                   : 4
+IndentWidth                                   : 2
 IndentWrappedFunctionNames                    : false
 IndentPPDirectives                            : AfterHash
 KeepEmptyLinesAtTheStartOfBlocks              : false
@@ -72,6 +72,7 @@ SpacesInCStyleCastParentheses                 : false
 SpacesInParentheses                           : false
 SpacesInSquareBrackets                        : false
 Standard                                      : Cpp11
-TabWidth                                      : 4
+TabWidth                                      : 2
 UseTab                                        : Never
 ...
+
